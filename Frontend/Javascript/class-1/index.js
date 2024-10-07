@@ -26,8 +26,18 @@ let user = null;
 console.log(typeof null);//object
 
 console.log(user);
+// Undefined
+let data;
+console.log(typeof data);
+// Number 
 
 
 
+let num1 = 50;
+let decimal_no = 2.345;
+let pi = 3.141;
+let roll_no = 145;
 
- 
+
+console.log(typeof num1);
+

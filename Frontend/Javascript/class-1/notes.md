@@ -1,0 +1,1 @@
+Undefined is a predefined data type
