@@ -27,11 +27,11 @@ console.log(typeof null);//object
 
 console.log(user);
 // Undefined
+
 let data;
 console.log(typeof data);
+
 // Number 
-
-
 
 let num1 = 50;
 let decimal_no = 2.345;
@@ -41,3 +41,29 @@ let roll_no = 145;
 
 console.log(typeof num1);
 
+// BigInt
+let largeno=2345678912345667;
+console.log(largeno);
+
+//  symbol
+
+let sym1 =Symbol("sym1");
+let sym2 =Symbol("sym1");
+console.log (sym1==sym2);
+
+// NaN
+
+ let num7 = "sushree";
+ let num8 = 10;
+ console.log (num7/num8);
+ let num9 = 0;
+ let num10 = 10;
+ console.log(num9/num10);
+ console.log(num10/num9); 
+
+
+//  Boolean
+let isStudent = True;
+let isTeacher = False;
+console.log(isStudent);
+console.log(isTeacher);

@@ -25,35 +25,14 @@ let f2= 5;
 let Division = f1/f2;
 console.log(Division);
 
-// BigInt
-let largeno=2345678912345667;
-console.log(largeno);
 
-// // symbol
-// let sym1 =Symbol("sym1");
-// let sym2 =Symbol("sym1");
-// console.log (sym1==sym2);
-
-// // NaN
-//  let num7 = "sushree";
-//  let num8 = 10;
-//  console.log (num7/num8);
-//  let num9 = 0;
-//  let num10 = 10;
-//  console.log(num9/num10);
-//  console.log(num10/num9); 
-
-// git push origin main
- Boolean
-// let isStudent = True;
-// let isTeacher = False;
-// console.log(isStudent);
-// console.log(isTeacher);
 
 // String: Collection of characters
+
 let name = "Sushree";
 let city = "bbsr";
 console.log(city,name);
+
 // Template literal:Baktik
 
 let name1 = "Sushree";
@@ -62,5 +41,20 @@ let roll_no = 145;
 let clg = "USBM";
 let batch = "2023-2025";
 
-console.log(`My name is ${name1} My city is ${city1} My rollno is ${roll_no} My clg is ${clg} My batch is ${batch}`)
+console.log(`My name is :${name1} My city is: ${city1} My rollno is: ${roll_no} My clg is: ${clg} My batch is: ${batch}`)
+
+// To check the length of the string
+console.log(city.length);
+
+let my_website = "www.qlith.com";
+console.log(my_website.replace("."))
+ let regd_no=" rgb_0123 "
+ console.log(regd_no.length-2);
+
+//  coercion:
+let num = 100;
+let num6= "100";
+console.log(num +num6);
+
+
  
