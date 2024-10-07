@@ -55,11 +55,12 @@ console.log (sym1==sym2);
 
  let num7 = "sushree";
  let num8 = 10;
- console.log (num7/num8);
+ console.log (num7/num8);//NaN
+
  let num9 = 0;
  let num10 = 10;
- console.log(num9/num10);
- console.log(num10/num9); 
+ console.log(num9/num10);//0
+ console.log(num10/num9); //INFINITY
 
 
 //  Boolean

@@ -48,10 +48,13 @@ console.log(city.length);
 
 let my_website = "www.qlith.com";
 console.log(my_website.replace("."))
+// Actual length
+
  let regd_no=" rgb_0123 "
  console.log(regd_no.length-2);
 
 //  coercion:
+
 let num = 100;
 let num6= "100";
 console.log(num +num6);
