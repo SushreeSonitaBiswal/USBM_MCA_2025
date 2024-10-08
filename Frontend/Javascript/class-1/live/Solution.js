@@ -14,6 +14,9 @@ let finalAmount = totalBill + tip;
 // Display the final amount in the console
 console.log(`The total bill (including a 10% tip) is: ${finalAmount}`);//264
 
+
+
+
 //2. Second question answer
 
 // Define the original price of the product
@@ -27,6 +30,10 @@ let finalPrice = originalPrice - discount;
 
 // Display the discounted price in the console
 console.log(`The final price after discount is: ${finalPrice}`);//800
+
+
+
+
 
 
 // 3.3rd question answer
