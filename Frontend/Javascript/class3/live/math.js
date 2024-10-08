@@ -73,7 +73,6 @@
 //task
 let total_bill = 500;
 let discount_start_price=200;
-
 if(total_bill >discount_start_price){
     console.log(discount);
 }
