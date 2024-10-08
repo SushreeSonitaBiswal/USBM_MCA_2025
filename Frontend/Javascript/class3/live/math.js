@@ -70,10 +70,42 @@
 
 //logical operator
 
-//task
-let total_bill = 500;
-let discount_start_price=200;
-if(total_bill >discount_start_price){
-    console.log(discount);
+// //task
+// let total_bill = 500;
+// // let discount_start_price=200;
+// // if(total_bill >discount_start_price){
+// //     console.log(discount);
+// // }
+
+// // Task
+// let age = 40;
+// if(gender==="male"){
+//   if(age >= 22)
+//     {
+//         console.log("He is able to marry");
+//     }
+//     else
+//     console.log("He is male");
+// }
+// Task:print all the vowels
+let char="a";
+switch(char){
+case "a": 
+    console.log("It is a vowel")
+    break;
+
+case e:
+        console.log("It is a vowel")
+        break;
+    
+ case i: 
+        console.log("It is a vowel")
+    
+case o:
+   console.log("It is a vowel")
+    break;
+case u:
+    console.log("It is a vowel")
+    break;
 }
 
