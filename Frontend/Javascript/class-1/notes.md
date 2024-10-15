@@ -16,3 +16,7 @@
 - Handles User Interaction: Responds to user actions like button clicks.
 - Runs Programs: Can create and run programs in browsers or servers (Node.js).
 - JavaScript allows creating dynamic and interactive web pages, making it a full-fledged programming language.
+
+
+npm cache clean --force
+npm install

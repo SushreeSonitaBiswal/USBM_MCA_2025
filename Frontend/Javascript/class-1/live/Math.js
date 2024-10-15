@@ -58,6 +58,5 @@ console.log(my_website.replace("."))
 let num = 100;
 let num6= "100";
 console.log(num +num6);
-
-
+ 
  

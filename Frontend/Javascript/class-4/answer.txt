@@ -1,0 +1,30 @@
+1. What does Math.floor() do in JavaScript?
+ In javascript Math.floor() is a function that returns the largest integer less 
+ than or equal to the given number.
+
+ Example:
+ Math.floor(5.7) //5
+  Math.floor(3.2)//3
+   Math.floor(-2.5)//-3
+
+
+  2. How would you generate a random number between 1 and 100?
+  3. What is the purpose of Math.ceil()? Give an example.
+  The primary purpose of Math.ceil() is to round a number up to the nearest integer.
+  Example:
+  Math.ceil(3.2) //4
+    Math.ceil(4.9) //5
+      Math.ceil(-2.5) //-2
+
+
+
+      4. Explain how Math.pow(2, 3) works and what the output will be.
+
+      Math.pow(2,3) is a Javascript function that calculates the value of 2 raised to the power of 3
+      Syntax:
+      Math.pow(base,exponent)
+      Math.pow(2,3)//8
+
+      5. What is the value of Math.PI?
+     Ans =  3.141592653589793
+     
