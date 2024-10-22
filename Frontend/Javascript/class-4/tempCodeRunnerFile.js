@@ -1,4 +1,4 @@
-3. Task: Round the number 9.12 up to the nearest integer.
+// 3. Task: Round the number 9.12 up to the nearest integer.
 // 4. Task: Generate a random number between 5 and 27 (inclusive).
 // 5. Task: Add 5 days to the current date.
 // 6. Task: Get the number of milliseconds between January 1, 2023, and today.

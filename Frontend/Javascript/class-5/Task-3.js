@@ -1,16 +1,12 @@
-//let num7 = "sushree";
-//  let num8 = 10;
-//  console.log (num7/num8);
-//  let num9 = 0;
-//  let num10 = 10;
-//  console.log(num9/num10);
-//  console.log(num10/num9); 
+////TASK-3
+// Exercise 3: Word Counter
+// In this exercise:
 
-// //  Boolean
-// let isStudent = True;
-// let isTeacher = False;
-// console.log(isStudent);
-// console.log(isTeacher);
+// The user inputs a sentence.
+
+// We count the number of words in the sentence.
+
+// let userInput = parseInt("Enter your sentence");
 let userInput = "This is a string value.";
 console.log("You entered: " + userInput);
 

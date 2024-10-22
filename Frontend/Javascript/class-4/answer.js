@@ -1,4 +1,4 @@
-//Math.floor()
+//1.Math.floor()
 
 console.log (Math.floor(4.9)) ; //4
 console.log (Math.floor(-2.5)) ; //-3
@@ -12,21 +12,22 @@ console.log(randomNumber);
  const random_number = Math.round(Math.random()*99) + 1 ;
  console.log(random_number) ;
 
- //Math.ceil()
+ //3.Math.ceil()
 
  console.log(Math.ceil(3.2)) //4
  console.log(Math.ceil(4.9)) //5
  console.log(Math.ceil(-2.5)) //-2
 
- //Math.pow(2,3)
+ //4.Math.pow(2,3)
  console.log (Math.pow(2,3)) //8
 
  //or
  console.log (2**3) ;//8
 
- //Math.PI
+ //5.Math.PI
  console.log (Math.PI) ; //3.141592653589793
 //TASK-2
+
  //1. Task: Generate a random number between 1 and 100.
  
  let final1 = 100;
