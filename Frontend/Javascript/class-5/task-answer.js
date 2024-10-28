@@ -154,23 +154,23 @@
    //*********
   
  
-   let rows2 = 5; 
+//    let rows2 = 5; 
 
-   for (let i = 1; i <= rows2; i++) {
-       let pattern = ""; 
+//    for (let i = 1; i <= rows2; i++) {
+//        let pattern = ""; 
    
        
-       for (let j = 1; j <= rows2 - i; j++) {
-           pattern += " "; 
-       }
+//        for (let j = 1; j <= rows2 - i; j++) {
+//            pattern += " "; 
+//        }
    
        
-       for (let j = 1; j <= (2 * i - 1); j++) {
-           pattern += "*"; 
-       }
+//        for (let j = 1; j <= (2 * i - 1); j++) {
+//            pattern += "*"; 
+//        }
        
-       console.log(pattern); 
-   }
+//        console.log(pattern); 
+//    }
    
 
 
@@ -184,35 +184,74 @@
    //***
    // *
 
-let rows = 5;
+   let rows4 = 5; 
+
+   for (let i = 1; i <= rows4; i++) {
+       let pattern = ""; 
+   
+       
+       for (let j = 1; j <= rows - i; j++) {
+           pattern += " "; 
+       }
+   
+       
+       for (let j = 1; j <= (2 * i - 1); j++) {
+           pattern += "*"; 
+       }
+       
+       console.log(pattern); 
+   }
+ 
+
+   for (let i = 1; i <= rows4; i++) {
+       let pattern = ""; 
+   
+       
+       for (let j = 1; j <= rows4 - i; j++) {
+           pattern += " "; 
+       }
+   
+       
+       for (let j = 1; j <= (2 * i - 1); j++) {
+           pattern += "*"; 
+       }
+       
+       console.log(pattern); 
+   }
 
 
-for (let i = rows - 1; i >= 1; i--) {
+
+
+
+// let rows = 5;
+
+
+// for (let i = rows - 1; i >= 1; i--) {
     
-    for (let j = 1; j < i; j++) {
-        process.stdout.write(' ');  
-    }
+//     for (let j = 1; j < i; j++) {
+//          let pattern = "";  
+//     }
 
   
-    for (let j = 1; j <= (2 * rows - (2 * i - 1)); j++) {
-       let  pattern =  "*"; 
-    }
+//     for (let j = 1; j <= (2 * rows - (2 * i - 1)); j++) {
+//          pattern =  "*"; 
+//     }
 
-    console.log();  
-}
-for (let i = 1; i <= rows; i++) {
+//     console.log();  
+// }
+// for (let i = 1; i <= rows; i++) {
     
-    for (let j = 1; j < i; j++) {
-        let pattern = " ";  
-    }
+//     for (let j = 1; j < i; j++) {
+//          pattern = " ";  
+//     }
 
  
-    for (let j = 1; j <= (2 * rows - (2 * i - 1)); j++) {
-       let pattern = "*";  
-    }
+//     for (let j = 1; j <= (2 * rows - (2 * i - 1)); j++) {
+//         pattern = "*";  
+//     }
 
-    console.log();  
-}
+//     console.log();  
+// }
 
 // Q5. *****
 //     *   *
@@ -220,23 +259,23 @@ for (let i = 1; i <= rows; i++) {
 //     *   *
 //     *****
 
-let row = 5;
- let pattern = "*" .repeat(row);
-console.log(pattern);
+// let row = 5;
+//  let pattern = "*" .repeat(row);
+// console.log(pattern);
 
 
-for (let i = 1; i <= row - 2; i++) {
-    pattern = " *"; 
-    for (let j = 1; j <= row - 2; j++) {
-        pattern += " "; 
-    }
-    pattern += " *"; 
-    console.log(pattern);
-}
+// for (let i = 1; i <= row - 2; i++) {
+//     pattern = " *"; 
+//     for (let j = 1; j <= row - 2; j++) {
+//         pattern += " "; 
+//     }
+//     pattern += " *"; 
+//     console.log(pattern);
+// }
 
  
-pattern = "*".repeat(row);
-console.log(pattern);
+// pattern = "*".repeat(row);
+// console.log(pattern);
 
 
 

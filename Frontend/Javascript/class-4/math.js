@@ -31,6 +31,7 @@
 
 // //Max
 // console.log(Math.max(10,20,30,56.87)); //56.87
+//Min 
 // console.log(Math.min(20,30,40,56.87));//20
 
 // //Absolute

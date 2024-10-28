@@ -1,0 +1,2 @@
+
+let hours = now.getHours();
