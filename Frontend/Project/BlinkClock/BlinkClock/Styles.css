@@ -1,0 +1,38 @@
+ 
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color:rgb(137, 137, 174); /* Dark background for contrast */
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners */
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Soft shadow */
+}
+
+.blinking-text {
+    font-size: 36px; /* Larger text size */
+    font-weight: bold;
+    color: #ff3363; /* Bright color */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Text shadow for depth */
+    animation: blink 1s infinite; /* Apply blink animation */
+}
+
+/* Keyframes for blinking effect */
+@keyframes blink {
+    0%, 100% {
+        opacity: 1; /* Fully visible */
+        transform: scale(1); /* Normal size */
+    }
+    50% {
+        opacity: 0; /* Fully hidden */
+        transform: scale(1.1); /* Slightly enlarge */
+    }
+}
