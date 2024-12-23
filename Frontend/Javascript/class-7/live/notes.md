@@ -42,5 +42,9 @@ console.log(cities);
 
 # unshift()
 -> Add element from starting.
+# Concat:-To merging arrays
+
+
+
 
 
